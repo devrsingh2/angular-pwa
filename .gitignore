@@ -1,0 +1,23 @@
+.DS_STORE
+
+/dist/
+e2e_test.*
+node_modules
+tools/gulp-tasks/cldr/cldr-data/
+
+.vscode
+/.idea/
+.env
+yarn.lock
+package-lock.json
+
+# Ignore npm/yarn debug log
+npm-debug.log
+yarn-error.log
+
+# build-analytics
+.build-analytics
+
+# User specific bazel settings
+.bazelrc.user
+

@@ -1,0 +1,435 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA Demo 1</title> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.carousel.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.theme.css" type="text/css" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="manifest.json" type="text/css" rel="manifest">
+</head>
+<body>
+    <!-- start application screen -->
+    <header class="header-bottom-fixed">
+            <div class="header-menu">
+                <ul class="header-menu-ul">                            
+                    <li class="menu-li">
+                        <a href="javascript:void(0);">
+                            <span class="menu-icon">
+                                <i class="fa fa-home"></i>
+                            </span>
+                            <span class="menu-name">Home</span>
+                        </a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="javascript:void(0);">
+                            <span class="menu-icon">
+                                <i class="fa fa-tag"></i>
+                            </span>
+                            <span class="menu-name">Offers</span>
+                        </a>
+                    </li>
+                    <li class="menu-li active">
+                        <a href="javascript:void(0);">
+                            <span class="menu-icon">
+                                <i class="fa fa-shopping-basket"></i>
+                            </span>
+                            <span class="menu-name">Pay Here</span>
+                        </a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="javascript:void(0);">
+                            <span class="menu-icon">
+                                    <i class="fa fa-credit-card-alt"></i>
+                            </span>
+                            <span class="menu-name">My Cards</span>
+                        </a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="javascript:void(0);">
+                            <span class="menu-icon">
+                                    <i class="fa fa-user"></i>
+                            </span>
+                            <span class="menu-name">Profile</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+    <section id="vg-payhere" class="app-wrapper header-fixed-top header-fixed-bottom">
+        <div class="custom-tabs">
+            <div class="container"></div>
+                <ul id="" class="tabs">
+                    <li class="tab"><a class="active" href="#debitCard">Pay at Store</a></li>
+                    <li class="tab"><a href="#creditCard">Buy Gift Cards</a></li>
+                </ul>
+                <div class="container">
+                    <div class="row mb-0">
+                        <div class="col sm-12 full-width">
+                            <form class="apply-promo-form mb-0">   
+                                <div class="input-field custom-input mb-0">
+                                    <input class="cust-input-control" id="email" type="email" class="validate">
+                                    <label class="coupon-code-label" for="email"><i class="fa fa-search" areahidden="true"></i>
+                                        Search Brands</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="debitCard" class="col s12">
+                    <div class="scroller-outer padlr-10">
+                        <!-- search bar -->
+                        <!-- <div class="container">
+                            <div class="row mb-0">
+                                <div class="col sm-12 full-width">
+                                    <form class="apply-promo-form mb-0">   
+                                        <div class="input-field custom-input mb-0">
+                                            <input class="cust-input-control" id="email" type="email" class="validate">
+                                            <label class="coupon-code-label" for="email"><i class="fa fa-search" areahidden="true"></i>
+                                                Search Brands</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- end of search bar -->
+
+                        <!-- scan and qr code start -->
+                        <div class="vg-apply-vouchers">
+                            <div class="container">
+                                <div class="row mb-0">
+                                    <ul class="discount-offer-cards">
+                                        <li>
+                                            <div class="vg-card custom-cards">
+                                                <div class="card-content valign-wrapper">
+                                                    <div class="vg-round-txt">
+                                                        <div class="vg-round">
+                                                            <div class="vg-square">
+                                                                <div class="vg-line"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vg-text">
+                                                            <p>Scan QR Code and Pay</p>
+                                                            <p>To make Payments at merchant outlets, scan QR
+                                                                code & make payment
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- scan and qr code end -->
+                        <!-- categori start -->
+
+                        <div class="container">
+                            <div class="cat-title">
+                                <p>Categories</p>
+                            </div>
+                            <div class="cat-tab">
+                                <div class="tab-icons">
+                                    <div class="custom-tabs pay-with-twid">
+                                        <div class="">
+                                            <ul id="" class="tabs">
+                                                <li class="tab center-align">
+                                                    <a class="active" href="#Nearby">
+                                                        <span class="categroy-img disp-block"><img src="img/nearby.png"></span>
+                                                        <!-- <span class="w-categroy-img disp-block"><img src="img/wnearby.png"></span> -->
+                                                        <span class="categroy-name menu-name">Nearby</span>
+                                                    </a>
+                                                </li>
+                                                <li class="tab">
+                                                    <a href="#Grocery">
+                                                        <span class="categroy-img disp-block"><img src="img/grocery.png"></span>
+                                                        <span class="categroy-name menu-name">Grocery</span>
+                                                    </a>
+                                                </li>
+                                                <li class="tab">
+                                                    <a href="#Fashion">
+                                                        <span class="categroy-img disp-block"><img src="img/fashion.png"></span>
+                                                        <span class="categroy-name menu-name">Fashion</span>
+                                                    </a>
+                                                </li>
+                                                <li class="tab">
+                                                    <a href="#Foods">
+                                                        <span class="categroy-img disp-block"><img src="img/food.png"></span>
+                                                        <span class="categroy-name menu-name">Food</span>
+                                                    </a>
+                                                </li>
+                                                <li class="tab">
+                                                    <a href="#Electronics">
+                                                        <span class="categroy-img disp-block"><img src="img/electronic_store.png"></span>
+                                                        <span class="categroy-name menu-name">Electronics</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                            <div class="content-title">
+                                                <p>Pay with twid here</p>
+                                            </div>
+                                            <div id="Nearby" class="col s12">
+                                                <div class="container">
+                                                    <div class="row mb-0">
+                                                        <div class="col s6">
+                                                            <div class="nbox-one">
+                                                                <div class="twid-t">
+                                                                    <img src="img/twidt.png" alt=""/>
+                                                                    <p>Chai Point</p>
+                                                                </div>
+                                                            </div>  
+                                                        </div>
+                                                        <div class="col s6">
+                                                            <div class="nbox-one">
+                                                                <div class="twid-t">
+                                                                    <img src="img/twidt.png" alt=""/>
+                                                                    <p>Chai Point</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><br>
+                                                    <div class="row mb-0">
+                                                            <div class="col s6">
+                                                                <div class="nbox-one">
+                                                                    <div class="twid-t">
+                                                                        <img src="img/twidt.png" alt=""/>
+                                                                        <p>Chai Point</p>
+                                                                    </div>
+                                                                </div>  
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="Grocery" class="col s12">
+                                                <div class="container">
+                                                        <div class="row mb-0">
+                                                            <div class="col s6">
+                                                                <div class="nbox-one">
+                                                                    <div class="twid-t">
+                                                                        <img src="img/twidt.png" alt=""/>
+                                                                        <p>Chai Point</p>
+                                                                    </div>
+                                                                </div>  
+                                                            </div>
+                                                            <div class="col s6">
+                                                                <div class="nbox-one">
+                                                                    <div class="twid-t">
+                                                                        <img src="img/twidt.png" alt=""/>
+                                                                        <p>Chai Point</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div><br>
+                                                    </div>
+                                            </div>
+                                            <div id="Fashion" class="col s12">
+                                                <div class="container">
+                                                    <div class="row mb-0">
+                                                        <div class="col s6">
+                                                            <div class="nbox-one">
+                                                                <div class="twid-t">
+                                                                    <img src="img/twidt.png" alt=""/>
+                                                                    <p>Chai Point</p>
+                                                                </div>
+                                                            </div>  
+                                                        </div>
+                                                        <div class="col s6">
+                                                            <div class="nbox-one">
+                                                                <div class="twid-t">
+                                                                    <img src="img/twidt.png" alt=""/>
+                                                                    <p>Chai Point</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </div><br>
+                                                        <div class="row mb-0">
+                                                            <div class="col s6">
+                                                                <div class="nbox-one">
+                                                                    <div class="twid-t">
+                                                                        <img src="img/twidt.png" alt=""/>
+                                                                        <p>Chai Point</p>
+                                                                    </div>
+                                                                </div>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div id="Foods" class="col s12">
+                                                <div class="container">
+                                                    <div class="row mb-0">
+                                                        <div class="col s6">
+                                                            <div class="nbox-one">
+                                                                <div class="twid-t">
+                                                                    <img src="img/twidt.png" alt=""/>
+                                                                    <p>Chai Point</p>
+                                                                </div>
+                                                            </div>  
+                                                        </div>
+                                                        <div class="col s6">
+                                                            <div class="nbox-one">
+                                                                <div class="twid-t">
+                                                                    <img src="img/twidt.png" alt=""/>
+                                                                    <p>Chai Point</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><br>
+                                                </div>                  
+                                            </div>
+                                            <div id="Electronics" class="col s12">
+                                                <div class="container">
+                                                    <div class="row mb-0">
+                                                        <div class="col s6">
+                                                            <div class="nbox-one">
+                                                                <div class="twid-t">
+                                                                    <img src="img/twidt.png" alt=""/>
+                                                                    <p>Chai Point</p>
+                                                                </div>
+                                                            </div>  
+                                                        </div>
+                                                    </div><br>
+                                                </div>            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- categori end -->
+                    </div>
+                </div>
+                <div id="creditCard" class="col s12">
+                    <div class="scroller-outer padlr-10">
+                     <!-- search bar -->
+                     <!-- <div class="container">
+                        <div class="row mb-0">
+                            <div class="col sm-12 full-width">
+                                <form class="apply-promo-form mb-0">   
+                                    <div class="input-field custom-input mb-0">
+                                        <input class="cust-input-control" id="email" type="email" class="validate">
+                                        <label class="coupon-code-label" for="email"><i class="fa fa-search" areahidden="true"></i>
+                                            Search Brands</label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div> -->
+                        <!-- end of search bar -->
+                        <!-- scan and qr code start -->
+                        <div class="vgbuy-apply-vouchers">
+                            <div class="container">
+                                <div class="row mb-0">
+                                    <ul class="discount-offer-cards">
+                                        <li>
+                                            <div class="vgbuy-giftcard">
+                                                <p>My Gift Cards</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- scan and qr code end -->
+
+                        <!-- more gift card start -->
+
+                        <div class="container">
+                            <div class="vgbuy-moregift">
+                                <p>More Gift Cards</p>
+                            </div>
+                        </div>
+                        <!-- end of more gift card -->
+
+                        <!-- all gift card start -->
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s6">
+                                    <div class="gift-card-outer">
+                                        <div class="gift-card-tag">
+                                            <p>flat <i class="fa fa-rupee" areahidden="true"></i>100 off</p>
+                                        </div>
+                                        <div class="giftcard-clogo valign-wrapper">
+                                            <img src="img/twidt.png" alt=""/>
+                                            <p>Myntra E-Gift Card</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s6">
+                                    <div class="gift-card-outer">
+                                        <div class="gift-card-tag">
+                                            <p>flat <i class="fa fa-rupee" areahidden="true"></i>100 off</p>
+                                        </div>
+                                        <div class="giftcard-clogo valign-wrapper">
+                                            <img src="img/twidt.png" alt=""/>
+                                            <p>Myntra E-Gift Card</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row mb-0">
+                                <div class="col s6">
+                                    <div class="gift-card-outer">
+                                        <div class="gift-card-tag">
+                                            <p>flat <i class="fa fa-rupee" areahidden="true"></i>100 off</p>
+                                        </div>
+                                        <div class="giftcard-clogo valign-wrapper">
+                                            <img src="img/twidt.png" alt=""/>
+                                            <p>Myntra E-Gift Card</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s6">
+                                    <div class="gift-card-outer">
+                                        <div class="gift-card-tag">
+                                            <p>flat <i class="fa fa-rupee" areahidden="true"></i>100 off</p>
+                                        </div>
+                                        <div class="giftcard-clogo valign-wrapper">
+                                            <img src="img/twidt.png" alt=""/>
+                                            <p>Myntra E-Gift Card</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row mb-0">
+                                <div class="col s6">
+                                    <div class="gift-card-outer">
+                                        <div class="gift-card-tag">
+                                            <p>flat <i class="fa fa-rupee" areahidden="true"></i>100 off</p>
+                                        </div>
+                                        <div class="giftcard-clogo valign-wrapper">
+                                            <img src="img/twidt.png" alt=""/>
+                                            <p>Myntra E-Gift Card</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- all gift card end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Java Script Part -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+  
+</body>
+</html>

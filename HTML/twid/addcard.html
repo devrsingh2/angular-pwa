@@ -1,0 +1,251 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA Demo 1</title> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.carousel.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.theme.css" type="text/css" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="manifest.json" type="text/css" rel="manifest">
+    <link href="css/styles.css" type="text/css" rel="stylesheet"> 
+</head>
+<body>
+    <!-- start application screen -->
+    <section class="app-wrapper apply-fixed-button-addcard">
+        <div class="add-card">
+            <div class="container">
+                <p class="vgaddcard-pay-back valign-wrapper black-text"><i class="material-icons">arrow_back</i> Add Card</p>  
+            </div>
+        </div>
+        <div class="vg-addcard-custom-tabs">
+            <div class="container">
+                <ul id="" class="tabs">
+                    <li class="tab"><a class="active" href="#bank">Bank</a></li>
+                    <li class="tab"><a href="#brand">Brand</a></li>
+                </ul>
+                <div id="bank" class="col s12">
+                    <div class="vg-addcard-bankdata">
+                        <div class="bank-selection">
+                            <!-- Dropdown Trigger -->
+                            <a class="modal-trigger" href="#modal1">Choose Bank
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </a>
+
+                            <div class="bank-card-num"> 
+                                <div class="input-inline-view">
+                                    <input class="field" id="bank-cnum" value="" autocomplete="off" type="text" placeholder="XXXX XXXX XXXX XXXX" maxlength="19" />
+                                </div>
+                            </div>
+                            <!-- Modal Structure -->
+                            <div id="modal1" class="modal bottom-sheet">
+                                <div class="modal-content">
+                                    <div class="bank-title">
+                                        <p>Choose Bank</p>
+                                        <a href="#!" class="modal-close">
+                                            <i class="material-icons bnkarw">keyboard_arrow_down</i></a>
+                                        <div class="clearfloat"></div>
+                                    </div>
+                                    <div class="bank-name-img">
+                                        <table>
+                                            <tr>
+                                                <td><img src="img/indusland.png" alt="" style="width: 80px;"></td>
+                                                <td>indusland Bank</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="img/sbi.png" alt="" ></td>
+                                                <td>Sbi Bank</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="img/hdfc.png" alt="" ></td>
+                                                <td>Hdfc Bank</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="img/icici.png" alt="" ></td>
+                                                <td>Icici Bank</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="img/citi.png" alt="" ></td>
+                                                <td>Citi Bank</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="img/axis.png" alt="" ></td>
+                                                <td>Axis Bank</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="img/sbi.png" alt="" ></td>
+                                                <td>Sbi Bank</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-full-btn-addcard swipping-button-addcard">
+                        <div class="container">
+                            <a href="#"><button class="btn btn-full-w waves-effect waves-light gradient-button-lr"
+                                type="submit" name="action">next</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="brand" class="col s12">
+                    <div class="vg-addcard-branddata">
+                        <div class="brand-selection">
+                            <!-- Dropdown Trigger -->
+                            <a class="modal-trigger" href="#modal-brand">Choose Brand
+                                <i class="material-icons brand-ic">keyboard_arrow_down</i>
+                            </a>
+
+                            <div class="brand-card-num"> 
+                               <div class="payment-options">
+                                    <div class="mobno">
+                                        <p id="mobile_no">Mobile No.<i class="material-icons brand-ic">keyboard_arrow_down</i></p>
+                                        <p id="card_no">Card No.<i class="material-icons brand-ic">keyboard_arrow_down</i></p>
+                                    </div>
+                                    <div class="mobile-card-input">
+                                        <div class="input-inline-view" id="d-card">
+                                            <input class="field" id="cnum" value="" autocomplete="off" type="text" placeholder="XXXX XXXX XXXX XXXX" maxlength="19" />
+                                        </div>
+                                        <div class="mobile-input" id="m-number">
+                                            <label>+91 |</label>
+                                            <span><input type="text" name="phone-number" class="form-control" placeholder="XXX XXX XXXX" id="imp-num" 
+                                            data-format="+91 (ddd) ddd-ddd"></span>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                            <!-- Modal Structure -->
+                            <div id="modal-brand" class="modal bottom-sheet">
+                                <div class="modal-content">
+                                    <div class="brand-title">
+                                        <p>Choose Brand</p>
+                                        <a href="#!" class="modal-close">
+                                            <i class="material-icons bnkarw">keyboard_arrow_down</i></a>
+                                        <div class="clearfloat"></div>
+                                    </div>
+                                    <div class="brand-name-img">
+                                        <table>
+                                            <tr>
+                                                <td><img src="img/sephora.png" alt="" style="width: 80px;"></td>
+                                                <td>sephora</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="img/lifestyle.png" alt="" ></td>
+                                                <td>lifestyle</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="img/big_bazar.png" alt="" ></td>
+                                                <td>big Bazar</td>
+                                                <td><i class="material-icons bnkname">keyboard_arrow_right</i></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- loyality membership section start -->
+
+                    <div class="brand-loyality-text">
+                        <p>or</p>
+                        <p>subscribe for loyality membership</p>
+                    </div>
+
+                    <!-- membership section end -->
+
+                    <!-- brand card section start -->
+                      <!-- all gift card start -->
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s6">
+                                    <div class="add-card-gift-card-outer">
+                                        <div class="add-card-gift-card-tag">
+                                            <p>Subscribed</p>
+                                        </div>
+                                        <div class="add-card-giftcard-clogo">
+                                            <img src="img/dineout.png" alt=""/>
+                                            <p>View Details</p>
+                                        </div>
+                                        <div class="plus">
+                                            <i class="material-icons congo-screen">add</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s6">
+                                    <div class="add-card-gift-card-outer">
+                                        <div class="add-card-gift-card-tag">
+                                            <p>Subscribed</p>
+                                        </div>
+                                        <div class="add-card-giftcard-clogo valign-wrapper">
+                                            <img src="img/dineout.png" alt=""/>
+                                            <p>View Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col s6">
+                                    <div class="add-card-gift-card-outer">
+                                        <div class="add-card-gift-card-tag">
+                                            <p>Subscribed</p>
+                                        </div>
+                                        <div class="add-card-giftcard-clogo valign-wrapper">
+                                            <img src="img/sephora.png" alt=""/>
+                                            <p>View Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s6">
+                                    <div class="add-card-gift-card-outer">
+                                        <div class="add-card-gift-card-tag">
+                                            <p>Subscribed</p>
+                                        </div>
+                                        <div class="add-card-giftcard-clogo valign-wrapper">
+                                            <img src="img/pantaloons.png" alt=""/>
+                                            <p>View Details</p>
+                                        </div>
+                                        <div class="plus">
+                                            <i class="material-icons congo-screen">add</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>                       
+                        </div>
+                        <div class="app-full-btn-addbrand swipping-button-addbrand">
+                            <div class="container">
+                                <a href="#"><button class="btn btn-full-w waves-effect waves-light gradient-button-lr"
+                                    type="submit" name="action">Verify Now</button></a>
+                            </div>
+                        </div>
+                        <!-- all gift card end -->
+                    <!-- brand card section end -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Java Script Part -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

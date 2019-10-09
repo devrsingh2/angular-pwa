@@ -1,0 +1,759 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-LightItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-LightItalic.woff') format('woff'),
+        url('../fonts/Nunito-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Nunito-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-SemiBold.woff2') format('woff2'),
+        url('../fonts/Nunito-SemiBold.woff') format('woff'),
+        url('../fonts/Nunito-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Nunito-ExtraLight.woff') format('woff'),
+        url('../fonts/Nunito-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Nunito-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Light.woff2') format('woff2'),
+        url('../fonts/Nunito-Light.woff') format('woff'),
+        url('../fonts/Nunito-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-BoldItalic.woff') format('woff'),
+        url('../fonts/Nunito-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Regular.woff2') format('woff2'),
+        url('../fonts/Nunito-Regular.woff') format('woff'),
+        url('../fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Italic.woff2') format('woff2'),
+        url('../fonts/Nunito-Italic.woff') format('woff'),
+        url('../fonts/Nunito-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-BlackItalic.woff') format('woff'),
+        url('../fonts/Nunito-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Black.woff2') format('woff2'),
+        url('../fonts/Nunito-Black.woff') format('woff'),
+        url('../fonts/Nunito-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Bold.woff2') format('woff2'),
+        url('../fonts/Nunito-Bold.woff') format('woff'),
+        url('../fonts/Nunito-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/Nunito-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Nunito-ExtraBold.woff') format('woff'),
+        url('../fonts/Nunito-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    height: 100vh;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin:0;
+}
+/*-------My CSS Librari---------*/
+section.app-wrapper {
+    height: 100%;
+    overflow: auto;
+}
+section.app-wrapper.apply-fixed-button {
+    height: calc(100vh - 100px);
+}
+.lineheight-30 {
+    line-height: 30px;
+}
+.vert-middle {
+    vertical-align: middle;
+}
+.relative {
+    position: relative;
+}
+.full-width {
+    width:100%;
+}
+.border-top-radius {
+    border-radius: 10px 10px 0 0;
+}
+.box-shadow-top {
+    box-shadow: 0 -15px 15px rgba(0,0,0,0.05);
+}
+.my-row {
+    margin:0 -0.75rem;
+}
+.rotate90 {
+    transform: rotate(-180deg);-moz-transform: rotate(-180deg);-ms-transform: rotate(-180deg);-webkit-transform: rotate(-180deg);-o-transform: rotate(-180deg);
+}
+.marg-left{
+    margin-left: 15px;
+}
+.marg-right{
+    margin-right: 15px;
+}
+.app-common-text {
+    color: #464646;
+    font-weight: 700;
+    font-size: 13px;
+}
+.table-heading-bg {
+    background:#f7f7f7;
+}
+.remove-tr-border tr, .remove-border {
+    border: 0px !important;
+}
+.disp-inline-bock {
+    display: inline-block;
+}
+.app-common-sub {
+    color: #d5d5d5;
+    font-weight: 500;
+    font-size: 13px; 
+}
+.btn-full-w {
+    width: 100%;
+}
+.transparent-bg {
+    background: transparent !important;
+}
+.app-extrasize-text {
+    font-size: 35px;
+    font-weight: 900;
+}
+.bolder-text {
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+}
+.color-green {
+    color: #08BE32;
+}
+.brown-color {
+    color:#9C704A !important;
+}
+.white-color-text td, .white-color-text th, .white-color-text {
+    color: #fff !important;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.cust-condenced-table td, .cust-condenced-table th {
+    padding: 5px !important;
+}
+.mt-30 {
+    margin-top: 30px !important;
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+.mt-15 {
+    margin-top:15px !important;
+}
+.mb-15 {
+    margin-bottom:15px !important;
+}
+.ml-15 {
+    margin-left: 15px !important;
+}
+.mr-15 {
+    margin-right: 15px !important;
+}
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+.padlr-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padtb-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pt-0 {
+    padding-top: 0 !important;
+}
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+.padlr-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.marglrless-10 {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.light-text {
+    font-weight:600;
+}
+.orange-color {
+    color:#FF6300 !important;
+}
+.clearboth {
+    clear: left;
+    clear: right;
+}
+.gradient-button {
+    background: -moz-linear-gradient(272deg, rgba(15,123,227,1) 0%, rgba(52,171,243,1) 99%, rgba(52,171,243,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(15,123,227,1)), color-stop(99%, rgba(52,171,243,1)), color-stop(100%, rgba(52,171,243,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(272deg, rgba(15,123,227,1) 0%, rgba(52,171,243,1) 99%, rgba(52,171,243,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(272deg, rgba(15,123,227,1) 0%, rgba(52,171,243,1) 99%, rgba(52,171,243,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(272deg, rgba(15,123,227,1) 0%, rgba(52,171,243,1) 99%, rgba(52,171,243,1) 100%); /* ie10+ */
+    background: linear-gradient(178deg, rgba(15,123,227,1) 0%, rgba(52,171,243,1) 99%, rgba(52,171,243,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f7be3', endColorstr='#34abf3',GradientType=0 ); /* ie6-9 */
+}
+.gradient-button-lr {
+    background: -moz-linear-gradient(0deg, rgba(57,184,247,1) 0%, rgba(0,109,224,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(57,184,247,1)), color-stop(100%, rgba(0,109,224,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(0deg, rgba(57,184,247,1) 0%, rgba(0,109,224,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(0deg, rgba(57,184,247,1) 0%, rgba(0,109,224,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(0deg, rgba(57,184,247,1) 0%, rgba(0,109,224,1) 100%); /* ie10+ */
+    background: linear-gradient(90deg, rgba(57,184,247,1) 0%, rgba(0,109,224,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39B8F7', endColorstr='#006DE0',GradientType=1 ); /* ie6-9 */
+}
+.orange-gradient-tr-bl {
+    fill: -moz-linear-gradient(231deg, rgba(247,202,69,1) 0%, rgba(247,202,69,1) 1%, rgba(249,182,65,1) 100%); /* ff3.6+ */
+    fill: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(249,182,65,1)), color-stop(99%, rgba(247,202,69,1)), color-stop(100%, rgba(247,202,69,1))); /* safari4+,chrome */
+    fill: -webkit-linear-gradient(231deg, rgba(247,202,69,1) 0%, rgba(247,202,69,1) 1%, rgba(249,182,65,1) 100%); /* safari5.1+,chrome10+ */
+    fill: -o-linear-gradient(231deg, rgba(247,202,69,1) 0%, rgba(247,202,69,1) 1%, rgba(249,182,65,1) 100%); /* opera 11.10+ */
+    fill: -ms-linear-gradient(231deg, rgba(247,202,69,1) 0%, rgba(247,202,69,1) 1%, rgba(249,182,65,1) 100%); /* ie10+ */
+    fill: linear-gradient(219deg, rgba(247,202,69,1) 0%, rgba(247,202,69,1) 1%, rgba(249,182,65,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7CA45', endColorstr='#F9B641',GradientType=0 ); /* ie6-9 */
+}
+/*----started application code here-----*/
+p.pay-back {
+    font-size: 18px;
+    font-weight: 700;
+    color: #464646;
+    padding:0 15px;
+}
+p.pay-back i.material-icons {
+    margin-right: 20px;
+    font-weight: 700;
+}
+.apply-vouchers {
+    background: -moz-linear-gradient(272deg, rgba(226,243,249,1) 0%, rgba(237,246,251,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(226,243,249,1)), color-stop(100%, rgba(237,246,251,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(272deg, rgba(226,243,249,1) 0%, rgba(237,246,251,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(272deg, rgba(226,243,249,1) 0%, rgba(237,246,251,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(272deg, rgba(226,243,249,1) 0%, rgba(237,246,251,1) 100%); /* ie10+ */
+    background: linear-gradient(178deg, rgba(226,243,249,1) 0%, rgba(237,246,251,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F3F9', endColorstr='#EDF6FB',GradientType=0 ); /* ie6-9 */
+    padding: 30px 0 0;
+}
+/*------paying to block-----*/
+.paying-to {
+    padding: 20px 0;
+    margin: 30px 0;
+}
+.app-common-heading {
+    /* font-size: 1.3rem; */
+    font-size: 13px;
+    font-weight: 800;
+    color:#464646;
+}
+.total-costs {
+    /* font-size: 1.8rem; */
+    font-size: 22px;
+    font-weight: 700;
+}
+.btn-floating.btn-small {
+    width: 18px;
+    height: 18px;
+}
+.btn-floating.btn-small i {
+    line-height: 18px;
+    font-size: 12px;
+}
+.discount-offer-cards li {
+    padding: 0 5px;
+}
+.custom-cards {
+    box-shadow: none;
+    border-radius: 8px;
+    border: 1px solid #d5d5d5;
+}
+.custom-cards .card-content {
+    padding: 10px;
+    border-radius: 0 0 2px 2px;
+    min-height: 60px;
+    position: relative;
+    z-index: 1;
+}
+.custom-cards [type="radio"]+span:before, .custom-cards [type="radio"]+span:after {
+    width: 20px;
+    height: 20px;
+    margin:0 4px 4px;
+}
+.custom-cards [type="radio"]:not(:checked)+span:before, .custom-cards [type="radio"]:not(:checked)+span:after {
+    border: 2px solid #d5d5d5;
+}
+.custom-cards [type="radio"]:not(:checked)+span, .custom-cards [type="radio"]:checked+span {
+    padding-left: 30px;
+    font-size:13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #464646;
+}
+.custom-table {
+    border: 1px solid #d5d5d5;
+    margin: 0 0 30px;
+}
+.custom-table td, .custom-table th {
+    padding: 15px 20px;
+}
+.table-footer-bg {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    background-repeat-x: repeat;
+    padding: 0 !important;
+}
+.app-checkboxes .card-content {
+    min-height: auto;
+}
+.app-checkboxes [type="checkbox"].filled-in:not(:checked)+span:not(.lever):after {
+    border-color:#d5d5d5;
+}
+.app-checkboxes label.radio-label, .radio-label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label.radio-label [type="radio"]:not(:checked)+span, label.radio-label [type="radio"]:checked+span {
+    height:auto !important;
+}
+.app-full-btn .btn {
+    font-size: 20px;
+    font-weight: 600;
+}
+.app-full-btn .btn {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: unset;
+    padding: 10px 0;
+    height: auto;
+    border-radius: 10px;
+}
+.card.custom-cards::before {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    /* background-image: url(../img/right-flow.png); */
+    height: 40px;
+    width: 12px;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card.custom-cards.app-checkboxes::before {
+    top: unset;
+    bottom: 18px;
+    right: 0;
+    height: 40px;
+    width: 14px;
+}
+.card.custom-cards::after {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    /* background-image: url(../img/left-flow.png); */
+    height: 35px;
+    width: 20px;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 0;
+}
+.card.custom-cards.app-checkboxes::after {
+    top: unset;
+    bottom: 10px;
+    right: 0;
+    height: 35px;
+    width: 20px;
+}
+.apply-promocode {
+    padding: 15px 0;
+    border-bottom: 1px solid #d5d5d5;
+}
+.apply-promocode p.appling-promocode {
+    padding: 0 15px;
+}
+.position-icon {
+    position: absolute;
+    right: 15px;
+    top:50%;
+    color: #d5d5d5;
+    font-size: 20px;
+    transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-webkit-transform: translateY(-50%);-o-transform: translateY(-50%);
+}
+span.svg-icon {
+    display: inline-block;
+    vertical-align: middle;
+    /* width: 20px;
+    height: 20px; */
+}
+.bit-map-img {
+    vertical-align: middle;
+}
+/*---debit creadit card listing---*/
+.custom-tabs .tabs .tab a:hover, .custom-tabs .tabs .tab a.active, .custom-tabs .tabs .tab a {
+    color: #464747;
+    font-weight: 800;
+    font-size: 12px;
+    background:transparent !important;
+}
+.custom-tabs .tabs-content.carousel.carousel-slider {
+    height:auto !important;
+    min-height: 300px;
+}
+.custom-tabs .tabs .indicator {
+    background:#4891E3;
+}
+.horizontal-slider {
+    display: flex;
+    flex-wrap:nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.own-card {
+    padding: 40px 15px 20px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    width: 280px;
+    min-height:158px;
+}
+.offer-view {
+    margin-top: 40px;
+}
+.horizontal-slider li .add-new-card {
+    width: 130px;
+}
+.bank-info img {
+    width:30px;
+    vertical-align: middle;
+}
+.bank-name-details {
+    width: 100%;
+    margin-left: 15px;
+}
+.card-no {
+    color:#454545;
+}
+.auto-width-inp {
+    width: 50% !important;
+    /* padding: 0 0 10px !important; */
+}
+span.input-field {
+    display: inline-block;
+    font-size: 14px;
+}
+span.input-field>label.label-middle {
+    left: 50%;
+    transform: translate(-50%, 12px);-moz-transform: translate(-50%, 12px);-webkit-transform: translate(-50%, 12px);-ms-transform: translate(-50%, 12px);-o-transform: translate(-50%, 12px);
+    width: auto !important;
+}
+span.input-field>label.label-middle.active {
+    left: 0;
+    transform: translate(0, -14px) scale(0.8);-moz-transform: translate(0, -14px) scale(0.8);-webkit-transform: translate(0, -14px) scale(0.8);-ms-transform: translate(0, -14px) scale(0.8);-o-transform: translate(0, -14px) scale(0.8);
+    width: auto !important;
+}
+.left-0 {
+    padding-left: 20px !important;
+    border-radius: 50% !important;
+}
+[type="checkbox"].filled-in:checked+span.left-0:not(.lever):after {
+  border-radius: 25px;
+}
+span.path-icon {
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+span.checkbx {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.add-card-here {
+    font-weight: 700;
+    font-size: 18px;
+    word-break: break-word;
+    white-space: normal;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: #4891E3
+}
+.icon-add {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #4891E3;
+}
+.payment-options ul {
+    display: flex;
+}
+.payment-options ul li {
+    padding: 0 10px;
+}
+.payment-options ul li img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*-------swip button css-----------*/
+#button-background {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 40px;
+    border: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+#slider {
+    transition: width 0.3s, border-radius 0.3s, height 0.3s;
+    position: absolute;
+    left: 2px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #006BDF;
+}
+  #slider.unlocked {
+    transition: all 0.3s;
+    width: inherit;
+    left: 0 !important;
+    height: inherit;
+    border-radius: inherit;
+  }
+  
+#slider .material-icons {
+    color: #4891E3;
+    font-size: 26px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+  
+  .slide-text {
+    color: #3a3d55;
+    font-size: 18px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+  
+  .bottom {
+    position: fixed;
+    bottom: 0;
+    font-size: 14px;
+    color: white;
+  }
+  .bottom a {
+    color: white;
+  }
+  .rotate-apposite {
+    transform: rotate(180deg);
+  }
+  .unlocked .rotate-apposite {
+    transform: rotate(0deg);
+  }
+  .swipping-button {
+    padding: 30px 0 15px;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px 10px 0 0;
+}
+/*------apply coupon-------*/
+.position-button {
+    position: absolute;
+    right: 10px;
+    top: 0.5rem;
+    text-transform: capitalize;
+    padding: 0 20px;
+    height: auto;
+    vertical-align: top;
+    height: 28px;
+    line-height: 27px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.rounded-btn{
+    border-radius: 25px;
+}
+.cust-input-control {
+    border-radius: 25px !important;
+    border: 1px solid rgba(66,183,248,0.5) !important;
+    padding:0 10px !important;
+    box-sizing: inherit !important;
+}
+.input-field.custom-input label {
+    left:15px !important;
+}
+.apply-promocode.apply-coupon-code {
+    border-bottom: 10px solid #F4F5F7;
+}
+.best-coupons-block {
+    border-bottom: 1px solid rgba(66,183,248,0.5);
+}
+.sliding-inner-content {
+    height: calc(100% - 160px);
+    overflow: auto;
+}
+ul.promo-detials-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span.city-code {
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px dashed #ddd;
+    padding: 0 5px;
+    background: rgba(66,183,248,0.1);
+}
+.view-offers-block {
+    border-bottom: 1px solid rgba(66,183,248,0.5);
+    padding: 10px;
+}
+.close-modal {
+    color: #353535;
+    font-size: 12px;
+    float: right;
+    margin: 5px;
+}
+.more-offer-popup li {
+    margin-bottom: 30px;
+    color:#464646;
+}
+
+
+#securitycode::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size:50px
+  }
+#securitycode::-moz-placeholder { /* Firefox 19+ */
+    font-size:50px
+  }
+#securitycode:-ms-input-placeholder { /* IE 10+ */
+    font-size:50px
+  }
+#securitycode:-moz-placeholder { /* Firefox 18- */
+    font-size:50px
+  }
+  
+/*---card new css---*/
+.input-inline-view {
+    display: flex;
+}
+.input-inline-view input {
+    text-align: center !important;
+    width:25% !important;
+}
+.ct-form-add-card input:focus {
+    border-color: #9e9e9e !important;
+    box-shadow: none !important;
+}

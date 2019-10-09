@@ -1,0 +1,673 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA Demo 1</title> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.carousel.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.theme.css" type="text/css" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="manifest.json" type="text/css" rel="manifest"> 
+</head>
+<body>
+    <!-- start application screen -->
+    <section class="app-wrapper header-fixed-top">
+        <div class="fixed-top-block">
+            <div class="container">
+                <p class="pay-back valign-wrapper"><i class="material-icons">arrow_back</i> Transaction History</p>
+            </div>
+        </div>
+        <div class="custom-tabs">
+            <ul id="" class="tabs">
+                <li class="tab"><a class="active" href="#Alltransactions">All</a></li>
+                <li class="tab"><a href="#Monthstransactions">This Month</a></li>
+                <li class="tab"><a href="#Todaystransactions">Today</a></li>
+            </ul>
+            <div id="Alltransactions" class="col s12">
+                <ul class="">
+                    <li class="padlr-10"> 
+                        <div class="card own-card hj-my-cards transaction-cards">
+                            <div class="trans-card-information">
+                                <div class="row">
+                                    <div class="col s12 border-bot1">
+                                        <p class="small-txt right-align ptb-5">19th Sep 2019, 11:58am</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 center-align">
+                                        <div class="hj-card-logo">
+                                            <img src="img/twid.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 right-align">
+                                        <p class="app-common-heading"><i class="fa fa-inr"></i> 2500</p>
+                                        <p class="small-txt black-text">Points Earned: <span class="green-paro-color">725pts</span></p>
+                                    </div>
+                                </div>
+                                <div class="row my-row mb-0">
+                                    <div class="col s6">
+                                        <p>
+                                            <span class="small-txt">Trans ID:</span>
+                                            <span class="small-txt black-text">TWID-33573 <i class="fa fa-clone round-icon-bg"></i></span>
+                                        </p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p class="small-txt right-align green-paro-color"><i class="fa fa-check-circle incr-font"></i> Payment Successful</p>
+                                    </div>
+                                </div>
+                                <div class="transaction-detail-info mt-15" style="display: none;">
+                                    <div class="row mb-0">
+                                        <div class="col s12">
+                                            <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="border-bt-dashed">
+                                                            <p class="total-of-trans small-txt black-text"><i class="fa fa-arrow-circle-down red-txt arrow-rotate-lft-20"></i> paid with AIRP</p>                                                
+                                                        </td>
+                                                        <td class="app-common-heading right-align small-txt red-txt border-bt-dashed">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> <span>1872.00</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">500 pts</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">225 pts</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-0">
+                                    <div class="col s12 center-align grey-text down-view-arrow">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="padlr-10"> 
+                        <div class="card own-card hj-my-cards transaction-cards">
+                            <div class="trans-card-information">
+                                <div class="row">
+                                    <div class="col s12 border-bot1">
+                                        <p class="small-txt right-align ptb-5">19th Sep 2019, 11:58am</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 center-align">
+                                        <div class="hj-card-logo">
+                                            <img src="img/twid.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 right-align">
+                                        <p class="app-common-heading"><i class="fa fa-inr"></i> 2500</p>
+                                        <p class="small-txt black-text">Points Earned: <span class="green-paro-color">725pts</span></p>
+                                    </div>
+                                </div>
+                                <div class="row my-row mb-0">
+                                    <div class="col s6">
+                                        <p>
+                                            <span class="small-txt">Trans ID:</span>
+                                            <span class="small-txt black-text">TWID-33573 <i class="fa fa-clone round-icon-bg"></i></span>
+                                        </p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p class="small-txt right-align green-paro-color"><i class="fa fa-check-circle incr-font"></i> Payment Successful</p>
+                                    </div>
+                                </div>
+                                <div class="transaction-detail-info mt-15" style="display: none;">
+                                    <div class="row mb-0">
+                                        <div class="col s12">
+                                            <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="border-bt-dashed">
+                                                            <p class="total-of-trans small-txt black-text"><i class="fa fa-arrow-circle-down red-txt arrow-rotate-lft-20"></i> paid with AIRP</p>                                                
+                                                        </td>
+                                                        <td class="app-common-heading right-align small-txt red-txt border-bt-dashed">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> <span>1872.00</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">500 pts</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">225 pts</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-0">
+                                    <div class="col s12 center-align grey-text down-view-arrow">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="padlr-10"> 
+                        <div class="card own-card hj-my-cards transaction-cards">
+                            <div class="trans-card-information">
+                                <div class="row">
+                                    <div class="col s12 border-bot1">
+                                        <p class="small-txt right-align ptb-5">19th Sep 2019, 11:58am</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 center-align">
+                                        <div class="hj-card-logo">
+                                            <img src="img/twid.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 right-align">
+                                        <p class="app-common-heading"><i class="fa fa-inr"></i> 2500</p>
+                                        <p class="small-txt black-text">Points Earned: <span class="green-paro-color">725pts</span></p>
+                                    </div>
+                                </div>
+                                <div class="row my-row mb-0">
+                                    <div class="col s6">
+                                        <p>
+                                            <span class="small-txt">Trans ID:</span>
+                                            <span class="small-txt black-text">TWID-33573 <i class="fa fa-clone round-icon-bg"></i></span>
+                                        </p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p class="small-txt right-align green-paro-color"><i class="fa fa-check-circle incr-font"></i> Payment Successful</p>
+                                    </div>
+                                </div>
+                                <div class="transaction-detail-info mt-15" style="display: none;">
+                                    <div class="row mb-0">
+                                        <div class="col s12">
+                                            <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="border-bt-dashed">
+                                                            <p class="total-of-trans small-txt black-text"><i class="fa fa-arrow-circle-down red-txt arrow-rotate-lft-20"></i> paid with AIRP</p>                                                
+                                                        </td>
+                                                        <td class="app-common-heading right-align small-txt red-txt border-bt-dashed">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> <span>1872.00</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">500 pts</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">225 pts</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-0">
+                                    <div class="col s12 center-align grey-text down-view-arrow">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="padlr-10"> 
+                        <div class="card own-card hj-my-cards transaction-cards">
+                            <div class="trans-card-information">
+                                <div class="row">
+                                    <div class="col s12 border-bot1">
+                                        <p class="small-txt right-align ptb-5">19th Sep 2019, 11:58am</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 center-align">
+                                        <div class="hj-card-logo">
+                                            <img src="img/twid.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 right-align">
+                                        <p class="app-common-heading"><i class="fa fa-inr"></i> 2500</p>
+                                        <p class="small-txt black-text">Points Earned: <span class="green-paro-color">725pts</span></p>
+                                    </div>
+                                </div>
+                                <div class="row my-row mb-0">
+                                    <div class="col s6">
+                                        <p>
+                                            <span class="small-txt">Trans ID:</span>
+                                            <span class="small-txt black-text">TWID-33573 <i class="fa fa-clone round-icon-bg"></i></span>
+                                        </p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p class="small-txt right-align green-paro-color"><i class="fa fa-check-circle incr-font"></i> Payment Successful</p>
+                                    </div>
+                                </div>
+                                <div class="transaction-detail-info mt-15" style="display: none;">
+                                    <div class="row mb-0">
+                                        <div class="col s12">
+                                            <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="border-bt-dashed">
+                                                            <p class="total-of-trans small-txt black-text"><i class="fa fa-arrow-circle-down red-txt arrow-rotate-lft-20"></i> paid with AIRP</p>                                                
+                                                        </td>
+                                                        <td class="app-common-heading right-align small-txt red-txt border-bt-dashed">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> <span>1872.00</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">500 pts</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">225 pts</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-0">
+                                    <div class="col s12 center-align grey-text down-view-arrow">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="padlr-10"> 
+                        <div class="card own-card hj-my-cards transaction-cards">
+                            <div class="trans-card-information">
+                                <div class="row">
+                                    <div class="col s12 border-bot1">
+                                        <p class="small-txt right-align ptb-5">19th Sep 2019, 11:58am</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 center-align">
+                                        <div class="hj-card-logo">
+                                            <img src="img/twid.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 right-align">
+                                        <p class="app-common-heading"><i class="fa fa-inr"></i> 2500</p>
+                                        <p class="small-txt black-text">Points Earned: <span class="green-paro-color">725pts</span></p>
+                                    </div>
+                                </div>
+                                <div class="row my-row mb-0">
+                                    <div class="col s6">
+                                        <p>
+                                            <span class="small-txt">Trans ID:</span>
+                                            <span class="small-txt black-text">TWID-33573 <i class="fa fa-clone round-icon-bg"></i></span>
+                                        </p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p class="small-txt right-align green-paro-color"><i class="fa fa-check-circle incr-font"></i> Payment Successful</p>
+                                    </div>
+                                </div>
+                                <div class="transaction-detail-info mt-15" style="display: none;">
+                                    <div class="row mb-0">
+                                        <div class="col s12">
+                                            <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="border-bt-dashed">
+                                                            <p class="total-of-trans small-txt black-text"><i class="fa fa-arrow-circle-down red-txt arrow-rotate-lft-20"></i> paid with AIRP</p>                                                
+                                                        </td>
+                                                        <td class="app-common-heading right-align small-txt red-txt border-bt-dashed">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> <span>1872.00</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">500 pts</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">225 pts</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-0">
+                                    <div class="col s12 center-align grey-text down-view-arrow">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="Monthstransactions" class="col s12">
+                <ul class="">
+                    <li class="padlr-10"> 
+                        <div class="card own-card hj-my-cards transaction-cards">
+                            <div class="trans-card-information">
+                                <div class="row">
+                                    <div class="col s12 border-bot1">
+                                        <p class="small-txt right-align ptb-5">19th Sep 2019, 11:58am</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 center-align">
+                                        <div class="hj-card-logo">
+                                            <img src="img/twid.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 right-align">
+                                        <p class="app-common-heading"><i class="fa fa-inr"></i> 2500</p>
+                                        <p class="small-txt black-text">Points Earned: <span class="green-paro-color">725pts</span></p>
+                                    </div>
+                                </div>
+                                <div class="row my-row mb-0">
+                                    <div class="col s6">
+                                        <p>
+                                            <span class="small-txt">Trans ID:</span>
+                                            <span class="small-txt black-text">TWID-33573 <i class="fa fa-clone round-icon-bg"></i></span>
+                                        </p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p class="small-txt right-align green-paro-color"><i class="fa fa-check-circle incr-font"></i> Payment Successful</p>
+                                    </div>
+                                </div>
+                                <div class="transaction-detail-info mt-15" style="display: none;">
+                                    <div class="row mb-0">
+                                        <div class="col s12">
+                                            <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="border-bt-dashed">
+                                                            <p class="total-of-trans small-txt black-text"><i class="fa fa-arrow-circle-down red-txt arrow-rotate-lft-20"></i> paid with AIRP</p>                                                
+                                                        </td>
+                                                        <td class="app-common-heading right-align small-txt red-txt border-bt-dashed">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> <span>1872.00</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">500 pts</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">225 pts</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-0">
+                                    <div class="col s12 center-align grey-text down-view-arrow">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="padlr-10"> 
+                        <div class="card own-card hj-my-cards transaction-cards">
+                            <div class="trans-card-information">
+                                <div class="row">
+                                    <div class="col s12 border-bot1">
+                                        <p class="small-txt right-align ptb-5">19th Sep 2019, 11:58am</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 center-align">
+                                        <div class="hj-card-logo">
+                                            <img src="img/twid.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 right-align">
+                                        <p class="app-common-heading"><i class="fa fa-inr"></i> 2500</p>
+                                        <p class="small-txt black-text">Points Earned: <span class="green-paro-color">725pts</span></p>
+                                    </div>
+                                </div>
+                                <div class="row my-row mb-0">
+                                    <div class="col s6">
+                                        <p>
+                                            <span class="small-txt">Trans ID:</span>
+                                            <span class="small-txt black-text">TWID-33573 <i class="fa fa-clone round-icon-bg"></i></span>
+                                        </p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p class="small-txt right-align green-paro-color"><i class="fa fa-check-circle incr-font"></i> Payment Successful</p>
+                                    </div>
+                                </div>
+                                <div class="transaction-detail-info mt-15" style="display: none;">
+                                    <div class="row mb-0">
+                                        <div class="col s12">
+                                            <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="border-bt-dashed">
+                                                            <p class="total-of-trans small-txt black-text"><i class="fa fa-arrow-circle-down red-txt arrow-rotate-lft-20"></i> paid with AIRP</p>                                                
+                                                        </td>
+                                                        <td class="app-common-heading right-align small-txt red-txt border-bt-dashed">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> <span>1872.00</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">500 pts</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">225 pts</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-0">
+                                    <div class="col s12 center-align grey-text down-view-arrow">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="padlr-10"> 
+                        <div class="card own-card hj-my-cards transaction-cards">
+                            <div class="trans-card-information">
+                                <div class="row">
+                                    <div class="col s12 border-bot1">
+                                        <p class="small-txt right-align ptb-5">19th Sep 2019, 11:58am</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 center-align">
+                                        <div class="hj-card-logo">
+                                            <img src="img/twid.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 right-align">
+                                        <p class="app-common-heading"><i class="fa fa-inr"></i> 2500</p>
+                                        <p class="small-txt black-text">Points Earned: <span class="green-paro-color">725pts</span></p>
+                                    </div>
+                                </div>
+                                <div class="row my-row mb-0">
+                                    <div class="col s6">
+                                        <p>
+                                            <span class="small-txt">Trans ID:</span>
+                                            <span class="small-txt black-text">TWID-33573 <i class="fa fa-clone round-icon-bg"></i></span>
+                                        </p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p class="small-txt right-align green-paro-color"><i class="fa fa-check-circle incr-font"></i> Payment Successful</p>
+                                    </div>
+                                </div>
+                                <div class="transaction-detail-info mt-15" style="display: none;">
+                                    <div class="row mb-0">
+                                        <div class="col s12">
+                                            <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="border-bt-dashed">
+                                                            <p class="total-of-trans small-txt black-text"><i class="fa fa-arrow-circle-down red-txt arrow-rotate-lft-20"></i> paid with AIRP</p>                                                
+                                                        </td>
+                                                        <td class="app-common-heading right-align small-txt red-txt border-bt-dashed">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> <span>1872.00</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">500 pts</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">225 pts</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-0">
+                                    <div class="col s12 center-align grey-text down-view-arrow">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="Todaystransactions" class="col s12">
+                <ul class="">
+                    <li class="padlr-10"> 
+                        <div class="card own-card hj-my-cards transaction-cards">
+                            <div class="trans-card-information">
+                                <div class="row">
+                                    <div class="col s12 border-bot1">
+                                        <p class="small-txt right-align ptb-5">19th Sep 2019, 11:58am</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 center-align">
+                                        <div class="hj-card-logo">
+                                            <img src="img/twid.png">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 right-align">
+                                        <p class="app-common-heading"><i class="fa fa-inr"></i> 2500</p>
+                                        <p class="small-txt black-text">Points Earned: <span class="green-paro-color">725pts</span></p>
+                                    </div>
+                                </div>
+                                <div class="row my-row mb-0">
+                                    <div class="col s6">
+                                        <p>
+                                            <span class="small-txt">Trans ID:</span>
+                                            <span class="small-txt black-text">TWID-33573 <i class="fa fa-clone round-icon-bg"></i></span>
+                                        </p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p class="small-txt right-align green-paro-color"><i class="fa fa-check-circle incr-font"></i> Payment Successful</p>
+                                    </div>
+                                </div>
+                                <div class="transaction-detail-info mt-15" style="display: none;">
+                                    <div class="row mb-0">
+                                        <div class="col s12">
+                                            <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="border-bt-dashed">
+                                                            <p class="total-of-trans small-txt black-text"><i class="fa fa-arrow-circle-down red-txt arrow-rotate-lft-20"></i> paid with AIRP</p>                                                
+                                                        </td>
+                                                        <td class="app-common-heading right-align small-txt red-txt border-bt-dashed">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> <span>1872.00</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">500 pts</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="app-common-text small-txt black-text count-amount"><i class="fa fa-arrow-circle-down green-paro-color arrow-rotate-right-140"></i> twid bonus added</td>
+                                                        <td class="app-common-text right-align small-txt black-text green-paro-color">225 pts</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-0">
+                                    <div class="col s12 center-align grey-text down-view-arrow">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Java Script Part -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+    <!--add your card Modal Structure -->
+    <div id="addCard" class="modal bottom-sheet">
+        <div class="modal-content">
+            <h4 class="app-common-text text-uppercase mb-15">Add debit card</h4>
+            <div class="ct-form-add-card">                
+                <form class="form-container">
+                    <div class="row my-row">
+                        <div class="mb-15 col s12">
+                            <label for="cardnumber">Card Number</label>
+                            <div class="input-inline-view">
+                                <input id="cardnumber" tabindex="1" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="XXXX" maxlength="4">
+                                <input id="cardnumber" tabindex="2" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="XXXX" maxlength="4">
+                                <input id="cardnumber" tabindex="3" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="XXXX" maxlength="4">
+                                <input id="cardnumber" tabindex="4" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="XXXX" maxlength="4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-row">                        
+                        <div class="mb-15 col s8">
+                            <label for="expirationdate" class="text-uppercase">Expiration (mm/yy)</label>
+                            <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="MM / YY" maxlength="4">
+                        </div>                        
+                        <div class="mb-15 col s4">
+                            <label for="securitycode" class="text-uppercase">CVV</label>
+                            <input id="securitycode" type="password" pattern="[0-9]*" inputmode="numeric" placeholder=". . ." maxlength="3">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="addCVV" class="modal bottom-sheet">
+        <div class="modal-content">
+            <h4 class="app-common-text text-uppercase mb-15">Add CVV</h4>
+            <div class="ct-form-add-card">
+                <form class="form-container">
+                    <div class="row my-row">                        
+                        <div class="mb-15 col s12">
+                            <label for="securitycode" class="text-uppercase">Enter CVV</label>
+                            <input id="securitycode" type="password" pattern="[0-9]*" inputmode="numeric" placeholder=". . ." maxlength="3">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</html>

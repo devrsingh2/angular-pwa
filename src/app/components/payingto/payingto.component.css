@@ -1,0 +1,13 @@
+.ct-forward-btn {
+    padding: 0px;
+    text-align: center;
+}
+.round.ct-forward-btn .fa {
+    position: inherit;
+    font-size: 18px !important;
+    left: inherit;
+}
+
+.invalid-feedback {
+    color: red;
+}

@@ -1,0 +1,80 @@
+<div class="container">
+    <div *ngIf="loading"class=" preloader-wrapper big active loader"style="margin-top:40px;margin-left:40%;">
+        <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="!loading">
+    <header id="top-head">
+        <div class="container">
+            <div class="back-text">
+                <span class="d-arrow"><i class="material-icons">keyboard_backspace</i></span>
+                <span>{{staticContents['static']['pay_now_page']['row_left']['text']}}</span>
+            </div>
+        </div>
+    </header>
+    <section id="pay-logo">
+        <form [formGroup]="payingToForm" (ngSubmit) = "onClickSubmit()">
+            <div class="container whole-content">
+                <div class="pay-text">
+                    <p>{{staticContents['static']['pay_now_page']['text_above_logo']['text']}}</p>
+                </div>
+                <div class="brand-logo">
+                    <img src="{{brand_logo}}" alt=""/>
+                </div>
+                <div class="amount-fillup">
+                    <div class="length_amount">
+                        <i class="fillup fa fa-rupee" areahidden="true"></i>
+                        <input
+                                id="icon_telephone-amount"
+                                name='amount'
+                                formControlName="amount"
+                                type="text"
+                                class="validate"
+                                [ngClass]="{ 'is-invalid': submitted && f.amount.errors }"
+                                maxlength="7"
+                                placeholder="{{staticContents['static']['pay_now_page']['place_holder']['text']}}"
+                                (keydown)="keyDownFunction($event)"
+                                onkeypress="this.style.width = ((this.value.length + 1) * 18) + 'px';"
+                                (keyup.enter)="onEnter()"
+                                required="required">
+                        <div *ngIf="submitted && f.amount.errors" class="invalid-feedback">
+                            <div *ngIf="f.amount.errors.required">Amount is required</div>
+                            <div *ngIf="f.amount.errors.min">Amount cannot be less than {{min_bill_amount}}.</div>
+                            <!-- <div *ngIf="f.amount.errors.max">Amount cannot be more than {{min_bill_amount}}.</div> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="sub-text-amount">
+                    <p>{{minimum_bill_value}}</p>
+                </div>
+                <div class="show_hide">
+                    <div class="round">
+                        <button type="submit" class="btn btn-default right" value="">
+                            <i class="fa fa-check" style="font-size:28px;"></i>
+                        </button>
+                        <div class="tap">
+                            <p>{{staticContents['static']['pay_now_page']['text_below_button']['text']}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+</div>
+<footer>
+    <div class="wave-img">
+        <img src="assets/img/wave2.png" alt=""/>
+    </div>
+</footer>

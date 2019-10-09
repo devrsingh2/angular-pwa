@@ -1,0 +1,27 @@
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: #ffd740;
+}
+
+.mat-radio-outer-circle {
+    box-sizing: border-box;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: border-color ease 280ms;
+    width: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.branding-image {
+    width:100%;
+    height:auto !important;
+}
+
+.isDisabled {
+    /*color: currentColor;*/
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}

@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA Demo 1</title> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.carousel.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.theme.css" type="text/css" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="manifest.json" type="text/css" rel="manifest"> 
+</head>
+<body>
+    <!-- start application screen -->
+    <section class="app-wrapper header-fixed-top apply-fixed-button">
+        <div class="fixed-top-block">
+            <div class="container">
+                <p class="pay-back valign-wrapper"><i class="material-icons">arrow_back</i> Pay</p>
+            </div> 
+        </div>
+        <div class="container">             
+            <!-- Paying to block  -->
+            <div class="paying-to box-shadow-top border-top-radius">
+                <div class="row valign-wrapper">
+                    <div class="col s3">
+                        <h4 class="app-common-heading">Paying to</h4>
+                    </div>
+                    <div class="col s4">
+                        <img src="img/lifestyle.png" alt="payer logo" width="60px"/>
+                    </div>
+                    <div class="col s5">
+                        <p class="total-costs right-align">
+                            <i class="fa fa-inr" aria-hidden="true"></i> 550 
+                            <a class="btn-floating btn-small waves-effect waves-light gradient-button"><i class="material-icons">edit</i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+        <div class="apply-vouchers border-top-radius">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h4 class="app-common-heading valign-wrapper">Apply Vouchers <i class="material-icons red-text rotate90 marg-left">info_outline</i></h4> 
+                    </div>
+                </div>
+                <div class="row">
+                    <ul class="discount-offer-cards horizontal-slider">
+                        <li>
+                            <div class="card custom-cards">
+                                <div class="card-content valign-wrapper">
+                                    <label class="radio-label valign-wrapper">
+                                        <input name="group1" type="radio" checked />
+                                        <span><i class="fa fa-inr" aria-hidden="true"></i> 500 DISCOUNT</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <!-- <div class="col s6">
+                        <div class="card custom-cards">
+                            <div class="card-content valign-wrapper">
+                                <label class="radio-label valign-wrapper">
+                                    <input name="group1" type="radio" checked />
+                                    <span>25% DISCOUNT</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6">
+                        <div class="card custom-cards">
+                            <div class="card-content valign-wrapper">
+                                <label class="radio-label valign-wrapper">
+                                    <input name="group1" type="radio" />
+                                    <span>Get 10% OFF on Jeans</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="apply-voucher-list">
+            <div class="container">                
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card custom-cards app-checkboxes">
+                            <div class="card-content valign-wrapper">
+                                <label class="radio-label">
+                                    <input type="checkbox" class="filled-in" checked="checked" name="group2" />
+                                    <span class="app-common-text">Lifestyle Points</span>
+                                    <div class="disp-inline-bock right">
+                                        <p class="app-common-text"><i class="fa fa-inr"></i> 100</p>
+                                        <p class="app-common-sub">100 pts</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="card custom-cards app-checkboxes">
+                            <div class="card-content valign-wrapper">
+                                <label class="radio-label">
+                                    <input type="checkbox" class="filled-in" name="group2" />
+                                    <span class="app-common-text">twidd Points</span>
+                                    <div class="disp-inline-bock right">
+                                        <p class="app-common-text"><i class="fa fa-inr"></i> 100</p>
+                                        <p class="app-common-sub">100 pts</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <table class="custom-table relative remove-tr-border">
+                            <thead>
+                                <tr>
+                                    <th colspan="2" class="app-common-heading table-heading-bg">Summary</th>
+                                </tr>                                
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="app-common-heading">Total Amount</td>
+                                    <td class="app-common-heading right-align">
+                                        <i class="fa fa-inr" aria-hidden="true"></i> 550
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="app-common-text">Voucher Applied</td>
+                                    <td class="app-common-text right-align">- <i class="fa fa-inr" aria-hidden="true"></i> 550</td>
+                                </tr>
+                                <tr>
+                                    <td class="app-common-text">Lifestyle Points</td>
+                                    <td class="app-common-text right-align">- <i class="fa fa-inr" aria-hidden="true"></i> 100</td>
+                                </tr>
+                                <tr>
+                                    <td class="app-common-text">Twid Points</td>
+                                    <td class="app-common-text right-align">- <i class="fa fa-inr" aria-hidden="true"></i> 200</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-footer-bg" colspan="2" style="background-image: url('img/clip.png')"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="app-full-btn swipping-button">
+                            <div class="container">
+                               <a href="artboard1.html"> <button class="btn btn-full-w waves-effect waves-light gradient-button-lr" type="submit" name="action">Proceed to pay <i class="fa fa-inr"></i> 550</button></a>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Java Script Part -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

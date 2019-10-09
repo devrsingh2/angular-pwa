@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA Demo 1</title> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.carousel.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.theme.css" type="text/css" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="manifest.json" type="text/css" rel="manifest"> 
+</head>
+<body>
+    <!-- start application screen -->
+    <section class="app-wrapper for-checkout-btn">
+        <div class="fill-background gradient-button-lr">
+            <div class="container">
+                <a href="artboard1.html">
+                    <p class="pay-back valign-wrapper white-text">
+                        <i class="material-icons">arrow_back</i> Gift Cards
+                    </p>  
+                </a>
+            </div>
+        </div>
+        <div class="gift-card-transaction-block">
+            <div class="container">
+                <div class="card own-card hj-my-cards my-gifr-cards my-functional-gift-card">
+                    <div class="card-information">
+                        <div class="row valign-wrapper">
+                            <div class="col s3 center-align">
+                                <div class="hj-card-logo">
+                                    <img src="img/twid.png">
+                                </div>
+                            </div>
+                            <div class="col s9">
+                                <p class="app-common-heading black-text">Allen Solly E-Gift-Card</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select-gift-amount">
+                        <p class="app-common-text font-size-12">Select Amount</p>
+                        <ul class="horizontal-slider padtb-15 mt-15 mb-15 amount-selector-ul">
+                            <li>
+                                <div class="amount-circle">
+                                    <i class="fa fa-inr"></i>500
+                                </div>
+                            </li>
+                            <li>
+                                <div class="amount-circle">
+                                    <i class="fa fa-inr"></i>600
+                                </div>
+                            </li>
+                            <li>
+                                <div class="amount-circle">
+                                    <i class="fa fa-inr"></i>700
+                                </div>
+                            </li>
+                            <li>
+                                <div class="amount-circle">
+                                    <i class="fa fa-inr"></i>800
+                                </div>
+                            </li>
+                            <li>
+                                <div class="amount-circle">
+                                    <i class="fa fa-inr"></i>900
+                                </div>
+                            </li>
+                            <li>
+                                <div class="amount-circle">
+                                    <i class="fa fa-inr"></i>1000
+                                </div>
+                            </li>
+                            <li>
+                                <div class="amount-circle">
+                                    <i class="fa fa-inr"></i>1100
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Select qty with add & remove -->
+                    <div class="select-quantity-add-remove">
+                        <div class="row valign-wrapper">
+                            <div class="col s8">
+                                <p class="app-common-text font-size-12">Select Quantity:</p>
+                            </div>
+                            <div class="col s4">
+                                <div class="quantity-holder">
+                                    <button id="minus-btn" class="oprations op-minus">
+                                        <i class="material-icons">remove</i>
+                                    </button>
+                                    <input id="qty-pnput" type="number" class="qty-input-box" value="1" min="1"  disabled>
+                                    <button id="plus-btn" class="oprations op-plus">
+                                        <i class="material-icons">add</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pricing table hide show -->
+                    <div class="pricing-table">
+                        <table class="custom-table cust-condenced-table transparent-bg remove-tr-border remove-border mb-0 pricing-table-history">
+                            <tbody>
+                                <tr>
+                                    <td class="border-bt-dashed">
+                                        <p class="small-txt black-text">Total Amount</p>                                                
+                                    </td>
+                                    <td class="app-common-heading right-align border-bt-dashed">
+                                        <span>1872.00</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="app-common-text small-txt black-text count-amount"><span class="mark-span">10% Off Applied</span></td>
+                                    <td class="app-common-text right-align small-txt black-text green-paro-color">Saving <i class="fa fa-inr"></i> 500 pts</td>
+                                </tr>
+                                <tr>
+                                    <td class="app-common-text small-txt black-text count-amount">Discounted amount to Pay</td>
+                                    <td class="app-common-text right-align small-txt black-text">225 pts</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card own-card hj-my-cards my-gifr-cards my-functional-gift-card my-functional-gift-card-toggle">
+                    <div class="row">
+                        <div class="col s6">
+                            <p class="app-common-heading valign-wrapper">twid Pay 
+                                <span class="material-icons ml-5 font-size-14 tooltipped" data-position="right" data-delay="250" data-tooltip="You can use 20 % of point balance for gift card purchase">info_outline</span>                                
+                            </p>
+                        </div>
+                        <div class="col s6">
+                            <p class="app-common-heading grey-text right-align"><i class="fa fa-inr"></i>450.0</p>
+                        </div>
+                    </div>
+                    <div class="row mb-0">  
+                        <div class="col s12">
+                            <p class="app-common-text small-txt black-text">twid balance: <i class="fa fa-inr"></i>6253.0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="terms-conditions-block">
+                    <ul class="hj-custom-accordion">
+                        <li class="accordion-li">
+                            <p class="app-common-heading click-point-cursor relative">How to Redeem
+                                <i class="fa fa-angle-down hj-dropper"></i>
+                            </p>
+                            <div class="hj-collapser mt-15" style="display: none;"> 
+                                <p class="app-common-text fontWeight-500">0</p>
+                            </div>
+                        </li>
+                        <li class="accordion-li">
+                            <p class="app-common-heading click-point-cursor relative">Terms & Condition
+                                <i class="fa fa-angle-down hj-dropper"></i>
+                            </p>
+                            <div class="hj-collapser mt-15" style="display: none;">
+                                <p class="app-common-text fontWeight-500">
+                                    It is a long established fact that a reader will be distracted by the readable content 
+                                    of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+                                    more-or-less normal distribution. It is a long established fact that a reader will be 
+                                    distracted by the readable content of a page when looking at its layout. The point of 
+                                    using Lorem Ipsum is that it has a more-or-less normal distribution. It is a long 
+                                    established fact that a reader will be distracted by the readable content of a page 
+                                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
+                                    normal distribution. www.google.com 
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="app-full-btn btn-checkout-cart">
+                    <div class="container">
+                        <button class="btn btn-full-w waves-effect waves-light gradient-button-lr" type="submit" name="action">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Java Script Part -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

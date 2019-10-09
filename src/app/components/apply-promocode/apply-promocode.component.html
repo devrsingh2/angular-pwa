@@ -1,0 +1,62 @@
+<body>
+    <!-- start application screen -->
+    <section class="app-wrapper">
+        <div class="container">
+            <a href="artboard1.html">
+                <p class="pay-back valign-wrapper">
+                    <i class="material-icons">arrow_back</i> {{staticContents['static']['coupons_list']['title']['text']}}
+                </p>  
+            </a>
+        </div>
+        <div class="apply-promocode apply-coupon-code pb-0">
+            <div class="container">
+                <div class="row mb-0">
+                    <div class="col sm-12 full-width">
+                        <form class="apply-promo-form mb-0">
+                            <div class="input-field custom-input mb-0">
+                                <input class="cust-input-control" id="email" type="email" class="validate">
+                                <label class="coupon-code-label" for="email">{{staticContents['static']['coupons_list']['apply_coupon_placeholder']['text']}}</label>
+                                <button class="btn btn-small position-button rounded-btn gradient-button-lr">{{staticContents['static']['coupons_list']['apply_coupon_button']['text']}}</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="best-coupons-block">
+            <div class="container">
+                <div class="row mb-0">
+                    <div class="col s12">
+                        <p class="app-common-heading lineheight-30">{{staticContents['static']['coupons_list']['listing_title']['text']}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sliding-inner-content">
+            <div class="container">
+                <div class="col s12">
+                    <div class="view-offers-block" *ngFor="let coupon of promoCodeData">
+                        <div class="banking-promo-info">
+                            <ul class="promo-detials-block">
+                                <li class="valign-wrapper">
+                                    <!-- <img class="vert-middle" src="img/hdfc.png" width="30px"/> -->
+                                    <span class="city-code">{{coupon['offer_code']}}</span>
+                                </li>
+                                <li>
+                                    <a (click)="applyPromoCode(coupon['offer_id'])" class="">{{staticContents['static']['coupons_list']['listing_apply_button']['text']}}</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="offer-details-info">
+                            <p class="app-common-heading lineheight-30 mb-15">{{coupon['title']}}</p>
+                            <p class="app-common-heading lineheight-30 mb-15 brown-color">{{coupon['min_bill_amount_text']}}</p>
+                            <button mz-button (click)="openServiceModal(coupon['offer_id'])">{{staticContents['static']['coupons_list']['listing_details_link']['text']}}</button>
+
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

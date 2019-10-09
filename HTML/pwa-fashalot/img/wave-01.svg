@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 330 98" style="enable-background:new 0 0 330 98;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.51;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#b_1_);}
+	.st2{filter:url(#c);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;}
+	.st4{opacity:0.5;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:url(#e_1_);}
+	.st6{filter:url(#f);}
+	.st7{opacity:0.153;}
+	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#4186CC;}
+	.st9{filter:url(#h);}
+</style>
+<filter  filterUnits="objectBoundingBox" height="103.6%" id="h" width="103%" x="-1.5%" y="-1.8%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="6.5"></feGaussianBlur>
+	<feOffset  in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" values="0 0 0 0 0.938387784 0 0 0 0 0.944618233 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="110.6%" id="f" width="108.4%" x="-4.2%" y="-5.3%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="16"></feGaussianBlur>
+	<feOffset  dy="6" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="106%" id="c" width="104.9%" x="-2.4%" y="-3%">
+	<feGaussianBlur  in="SourceAlpha" result="shadowBlurInner1" stdDeviation="9.5"></feGaussianBlur>
+	<feOffset  in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	<feColorMatrix  in="shadowInnerInner1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
+</filter>
+<g id="main">
+	<g id="_x33_" transform="matrix(1 0 0 -1 -41 140.689)" class="st0">
+		<g>
+			
+				<linearGradient id="b_1_" gradientUnits="userSpaceOnUse" x1="106.3331" y1="-8.4912" x2="106.3331" y2="-7.5271" gradientTransform="matrix(-389.3911 0 0 -318.916 41637.8164 -2613.9536)">
+				<stop  offset="0" style="stop-color:#99E6F6"/>
+				<stop  offset="1" style="stop-color:#1073E3"/>
+			</linearGradient>
+			<path id="b" class="st1" d="M43.8,81.2l-5.8-19v-275.7h340.9l32.7,13.7c22.3,199.1,21,295.8-4,290.3
+				c-37.5-8.2-67.1,14.9-110.6,14.9c-43.5,0-59.4-11.8-100.6-17.8c-41.2-5.9-67.9,17.8-106.8,16C63.5,102.5,48.3,95,43.8,81.2z"/>
+		</g>
+		<g class="st2">
+			<path class="st3" d="M43.8,81.2l-5.8-19v-275.7h340.9l32.7,13.7c22.3,199.1,21,295.8-4,290.3c-37.5-8.2-67.1,14.9-110.6,14.9
+				c-43.5,0-59.4-11.8-100.6-17.8c-41.2-5.9-67.9,17.8-106.8,16C63.5,102.5,48.3,95,43.8,81.2z"/>
+		</g>
+	</g>
+	<g id="_x32_" transform="matrix(1 0 0 -1 -41 101.645)" class="st4">
+		<g>
+			
+				<linearGradient id="e_1_" gradientUnits="userSpaceOnUse" x1="106.356" y1="-47.6566" x2="106.356" y2="-46.6566" gradientTransform="matrix(-451.355 0 0 -357.968 48229.9844 -16993.1113)">
+				<stop  offset="0" style="stop-color:#6BF7E7"/>
+				<stop  offset="1" style="stop-color:#0971C3"/>
+			</linearGradient>
+			<path id="e" class="st5" d="M139.2,45.9c-20.8-1.5-41.4,4.5-61.7,18C25.8,16.3,0-24.3,0-58.1c0-33.8,12.5-104.9,37.5-213.5
+				l413.9-19.9L430-135.4l-10.8,167v25.7c-7.1,6.1-19,9.1-35.7,9.1c-25,0-46.8-45.9-110.9-14.4C208.6,83.4,170.4,48.1,139.2,45.9
+				L139.2,45.9z"/>
+		</g>
+		<g class="st6">
+			<path class="st3" d="M139.2,45.9c-20.8-1.5-41.4,4.5-61.7,18C25.8,16.3,0-24.3,0-58.1c0-33.8,12.5-104.9,37.5-213.5l413.9-19.9
+				L430-135.4l-10.8,167v25.7c-7.1,6.1-19,9.1-35.7,9.1c-25,0-46.8-45.9-110.9-14.4C208.6,83.4,170.4,48.1,139.2,45.9L139.2,45.9z"
+				/>
+		</g>
+	</g>
+	<g id="_x31_" transform="matrix(1 0 0 -1 -41 97.517)" class="st7">
+		<g>
+			<path id="g" class="st8" d="M55.4,60L0.3-69.6l30-168.3L421.2-300l6.1,321.3c1.6,39-27.8,49.7-88.1,32
+				c-90.5-26.5-133.8,3.4-171.6,6.7C142.4,62.2,81.5,64.3,55.4,60z"/>
+		</g>
+		<g class="st9">
+			<path class="st3" d="M55.4,60L0.3-69.6l30-168.3L421.2-300l6.1,321.3c1.6,39-27.8,49.7-88.1,32c-90.5-26.5-133.8,3.4-171.6,6.7
+				C142.4,62.2,81.5,64.3,55.4,60z"/>
+		</g>
+	</g>
+</g>
+</svg>

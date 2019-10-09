@@ -1,0 +1,12 @@
+{
+    "short_name": "Lifestyle",
+    "name": "Lifestyle",
+    "start_url": "/index.html",
+    "icon": [
+        {
+            "src": "/img/",
+            "type": "image/png",
+            "size": "147X60"
+        }
+    ]
+}
